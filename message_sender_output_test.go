@@ -15,7 +15,7 @@ func TestMessageSender_Send(t *testing.T) {
 	phoneNumber := "+1234567890"
 	msg := "Dummy Text"
 
-	expected := fmt.Sprintf("%s\n\n%s", phoneNumber, msg)
+	expected := fmt.Sprintf("%s\n\n%s\n", phoneNumber, msg)
 
 	ctx := context.Background()
 

@@ -11,7 +11,8 @@ import (
 
 const DefaultTemplate = `{{ .PhoneNumber }}
 
-{{ .Message }}`
+{{ .Message }}
+`
 
 type messageSender struct {
 	output io.Writer
